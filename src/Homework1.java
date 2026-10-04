@@ -17,6 +17,7 @@ public class Homework1 {
         for (int i = 1; i <=5 ; i++) {
             System.out.println(i);
         }
+        System.out.println("____________________");
 
         /**
          * Հայտարարեք երկու ամբողջ փոփոխական (int a = 5; int b = 7;) և տպեք դրանց գումարը։
@@ -25,6 +26,8 @@ public class Homework1 {
         int b =7;
         int c = a+b;
         System.out.println(c);
+        System.out.println("____________________");
+
 
         /**
          * Տրված է int n = 3;։ Օգտագործելով for ցիկլ, տպեք n-ի բազմապատկման աղյուսակը 1-ից մինչև 10։
