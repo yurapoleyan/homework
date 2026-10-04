@@ -1,20 +1,46 @@
 public class Homework1 {
     public static void main(String[] args) {
-//        int x;
-//        int y=0;
-//        for (x =1 ; x<=5; x++){
-//            if (x<5);
-//            System.out.println(y<x );
-//        }
-int n=3;
-        int m;
-        for(m=1;m<=10;m++){
-            System.out.println(n+"*"+m+"="+n*m);
-        }
-        int a=5;
-        int b=7;
-        int c = a+b;
+        /**
+         *Ունեք երկու ամբողջ թիվ x և y։
+         *Գրել ծրագիր, որը if-ով կպարզի և կտպի՝ որը մեծ է։
+         */
+        int x = 10;
+        int y = 20;
+        System.out.println(x < y);
+        System.out.println(x > y);
+        System.out.println(x == y);
 
-        System.out.println(a+"+"+b+"="+c);
+        /**
+         * Օգտագործել for ցիկլ՝ տպելու համար առաջին 5 բնական թվերը (1, 2, 3, 4, 5)։
+        */
+
+        for (int i = 1; i <=5 ; i++) {
+            System.out.println(i);
+        }
+
+        /**
+         * Հայտարարեք երկու ամբողջ փոփոխական (int a = 5; int b = 7;) և տպեք դրանց գումարը։
+         */
+        int a =5;
+        int b =7;
+        int c = a+b;
+        System.out.println(c);
+
+        /**
+         * Տրված է int n = 3;։ Օգտագործելով for ցիկլ, տպեք n-ի բազմապատկման աղյուսակը 1-ից մինչև 10։
+         * օրինակ եթե n-ը 3 է՝
+         * 3 * 1 = 3
+         * 3 * 2 = 6
+         * ...
+         * 3 * 10 = 30
+         */
+        int n=3;
+        for (int i = 1; i <=10; i++) {
+            int m=n*i;
+            System.out.println(n+"*"+i+"="+m);
+
+        }
+
     }
+
 }
