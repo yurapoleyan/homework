@@ -1,4 +1,4 @@
-package Homework4;
+package homework;
 
 public class ArrayHomework1 {
     public static void main(String[] args) {
@@ -36,28 +36,30 @@ public class ArrayHomework1 {
                 }
             }
             if (beforeSeen) continue;
-            for (int j = i+1; j <numbers3.length ; j++) {
-                if (numbers3[j]==numbers3[i]){
-                   repeatCount++;
+            for (int j = i + 1; j < numbers3.length; j++) {
+                if (numbers3[j] == numbers3[i]) {
+                    repeatCount++;
                     break;
                 }
             }
         }
         // Խնդիր 4 — Հաշվել ձայնավորների քանակը
 
-        System.out.println("Repeated numbers count"+":"+ repeatCount);
-        {char[] chars = {'բ', 'ա', 'ր', 'և', 'ա', 'շ', 'խ', 'ա', 'ր', 'հ'};
+        System.out.println("Repeated numbers count" + ":" + repeatCount);
 
-        int count =0;
-        for (char c:chars){
-            if (c=='ա'|| c=='ե'||c=='է'||c=='ը'||c=='ի'||c=='ո'||c=='օ'||c=='ո'||c=='ւ'){
+        char[] chars = {'բ', 'ա', 'ր', 'և', 'ա', 'շ', 'խ', 'ա', 'ր', 'հ'};
+
+        int count = 0;
+
+        for (char c : chars) {
+            if (c == 'ա' || c == 'ե' || c == 'է' || c == 'ը' || c == 'ի' || c == 'ո' || c == 'օ' || c == 'ո' || c == 'ւ') {
                 count++;
             }
         }
-                System.out.println("Vowels count "+": "+ count);
+        System.out.println("Vowels count " + ": " + count);
 
     }
-    }}
+}
 
 
 

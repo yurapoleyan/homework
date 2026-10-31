@@ -1,4 +1,4 @@
-package homeworks;
+package homework;
 
 public class ArrayUtil {
 
@@ -8,7 +8,8 @@ public class ArrayUtil {
         // Խնդիր 1
         for (int i = 0; i < numbers.length; i++) {
             System.out.print(numbers[i] + " ");
-        }int[] numbers1 = {12, 5, 8, -3, 21, 7, 0, 15, 2, 9};
+        }
+        int[] numbers1 = {12, 5, 8, -3, 21, 7, 0, 15, 2, 9};
         System.out.println();
 
         // Խնդիր 2
